@@ -67,6 +67,10 @@ ul {
 
  .header__logo {
     height: 72px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
  }
 
  .header__title {

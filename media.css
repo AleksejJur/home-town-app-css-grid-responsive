@@ -18,6 +18,14 @@
     }
 }
 
+@media screen and (min-width: 0px) and (max-width: 390px) {
+ .team1 {
+     display: none;
+ }
+ .team2 {
+     display: none;
+ }
+}
 @media screen and (min-width: 541px) and (max-width: 849px) {
 
     .header {
@@ -91,6 +99,39 @@
         grid-template-columns: 100%;
         grid-template-rows: 40px auto;
     }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        width: 50%;
+        order: 0;
+    }
+
+    .top-news {
+        order: 1;
+        width: 50%;
+        border-bottom: 1px solid #E0E0E0;
+        padding: 2em;
+    }
+
+    .scores {
+        order: 2;
+        width: 50%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .weather {
+        width: 50%;
+        order: 3;
+    }
+    .recent-news {
+        order: 10;
+    }
+    
 }
 
 
